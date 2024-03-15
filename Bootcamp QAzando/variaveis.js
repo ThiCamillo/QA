@@ -19,8 +19,8 @@ let devices = {
     nome: 'iPhone 14',
     preco: 8000,
     cores: {
-        cor1:'vermelho',
-        cor2: 'azul'
+    cor1: 'vermelho',
+    cor2: 'azul'
     }
 }
 
