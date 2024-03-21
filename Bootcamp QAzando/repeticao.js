@@ -4,8 +4,8 @@
 const cidades = ['Sao Paulo', 'Rio de Janeiro', 'Florianopolis', 'Recife']
 
 cidades.forEach((elemento, index) => {
-    console.log('Execução numero: ' + index)
-    console.log(elemento)
+    //console.log('Execução numero: ' + index)
+    //console.log(elemento)
 })
 
 
