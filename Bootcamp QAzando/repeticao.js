@@ -9,4 +9,12 @@ cidades.forEach((elemento, index) => {
 })
 
 
-// for normal
+// for normal = executado de acordo com o limite definido por voce
+
+for (let index = 0; index < 10; index++) {
+    console.log(index)
+}
+
+for (let index = 0; index < cidades.length; index++) {
+    console.log(cidades[index])
+}
