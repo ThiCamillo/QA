@@ -11,19 +11,16 @@
 //-------------
 
 const nomes = ['Eduardo', 'Maria', 'Fernando', 'Joao', 'Francisco']
+/*
+nomes.forEach((nome, indice) => {
+    console.log('Execução: ', indice + 1)
+    console.log('Nome:' + nome)
+    console.log('-----------------')
+})
+*/
 
-//nomes.forEach((pessoa, indice) => {
- //   console.log('Execução: ' + indice)
- //   console.log(pessoa)
-//})
-
-//cidades.forEach((elemento, index) => {
-//console.log('Execução numero: ' + index)
-//console.log(elemento)
-//})
-
-for (let indice = 1; indice < nomes.length; indice++) {
-    console.log('Execução: ' + indice)
+for (let indice = 0; indice < nomes.length; indice++) {
+    console.log('Execução: ', indice + 1)
     console.log('Nome: ' + nomes[indice])
     console.log('-----------------')
 }
