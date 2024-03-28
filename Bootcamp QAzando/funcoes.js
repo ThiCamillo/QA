@@ -2,14 +2,11 @@
 // pode ou nao receber paramentros
 //pode ou nao retornar dados
 
-function gerarNome() {
-    const nome = 'Thiago'
-    const sobrenome = 'Sampaio'
-    const idade = 38
-
+function gerarNome(nome, sobrenome, idade) {
     console.log('Nome:', nome, sobrenome)
     console.log('Idade:', idade)
 
 }
 
-gerarNome()
+gerarNome('Luiz', 'da Silva', 18)
+gerarNome('Luiz', 'da Silva', 18)
